@@ -34,6 +34,13 @@ gem 'kaminari'
 gem 'kaminari-i18n'
 # A Ruby Gem that wraps the functionality of jQuery Raty library, and provides optional IMDB style rating.
 gem 'ratyrate'
+# A library for generating fake data such as names, addresses, and phone numbers.
+gem 'faker'
+# Markdown Lorem Ipsum generator
+gem 'doctor_ipsum'
+# O Lero-lero Generator é uma ferramenta capaz de gerar frases que 'falam' muita coisa mas que não tem conteúdo algum.
+gem 'lerolero_generator'
+
 
 source 'https://rails-assets.org' do
   # The most popular front-end framework for developing responsive, mobile first projects on the web.
@@ -102,15 +109,6 @@ group :development do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
-
-  # A library for generating fake data such as names, addresses, and phone numbers.
-  gem 'faker'
-
-  # Markdown Lorem Ipsum generator
-  gem 'doctor_ipsum'
-
-  # O Lero-lero Generator é uma ferramenta capaz de gerar frases que 'falam' muita coisa mas que não tem conteúdo algum.
-  gem 'lerolero_generator'
 
   # Official Ruby on Rails specific tasks for Capistrano
   gem 'capistrano', '~> 3.7'
